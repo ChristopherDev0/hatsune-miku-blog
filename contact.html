@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatsune Miku</title>
+    <link rel="shortcut icon" href="/img/miku-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navegation" id="navegation">
+            <div class="header-titulo">
+                <ion-icon class="header-logo" name="code-slash-outline"></ion-icon>
+                <h2>Hatsune</h2>
+            </div>
+            <button class="abrir-menu" id="open"><ion-icon class="menu" name="menu-outline"></ion-icon></button>
+            <div class="div-nav" id="nav">
+                <button class="cerrar-menu" id="close"><ion-icon class="menu" name="close-outline"></ion-icon></ion-icon></button>
+                <ul class="header-nav">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">user account</a></li>
+                    <li><a href="#">Message</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="contact-img"></div>
+
+        <form class="form">
+            <div>
+                <div class="field">
+                    <label class="field-label" for="email">E-mail</label>
+                    <input class="field-input" type="email" placeholder="E-mail destination">  
+                </div>
+            </div>
+            <div>
+                <div class="field">
+                    <label class="field-label" for="matter">Matter</label>
+                    <input class="field-input" type="text" placeholder="Matter E-mail">  
+                </div>
+            </div>
+            <div>
+                <div class="field">
+                    <label class="field-label" for="message">Message</label>
+                    <textarea class="field-input field-input-textarea"></textarea>
+                </div>
+            </div>
+            <div class="button-contact">
+                <a href="#" class="button">Send</a>
+                <a href="#" class="reset">Reset</a>
+            </div>
+        </form>
+
+    </section>
+
+    <footer>
+        <div class="footer-first">
+            <div class="legenda">
+                <ion-icon class="footer-logo" name="chatbox-ellipses"></ion-icon>
+                <p>website made for the purpose of interaction between lovers of the silent GEEK, anime and technology.</p>
+            </div>
+            <div>
+                <div class="contact">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </div>
+                <div>
+                    <ul class="footer-nav">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Information</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">user account</a></li>
+                        <li><a href="#">Message</a></li>
+                    </ul>
+                </div>
+            </div>
+       </div>
+       <div class="footer-second">
+        <h3>Copyright © 2023 Christopher patiño santos</h3>
+        <div class="footer-title">
+            <ion-icon class="footer-logo" name="code-slash-outline"></ion-icon>
+            <h2>Hatsune</h2>
+        </div>
+       </div>
+    </footer>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

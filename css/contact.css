@@ -1,0 +1,104 @@
+.header{
+    background: transparent;
+    height: 0%;
+}
+body{
+    background-color: white;
+}
+.navegation{
+    background-color: #10142b;
+}
+.container{
+    width: 90%;
+    margin: 5rem auto;
+}
+@media (min-width: 790px) {
+    .container{
+        width: 70%;
+        margin: 5rem auto;
+    }
+}
+.contact-img{
+    background-image: url(/img/hatsune-blog1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/contact-img.png);
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@media (min-width: 790px) {
+    .contact-img{
+        background-position: initial;
+    }
+}
+.form{
+    background-color: white;
+    margin: -6rem auto 0 auto;
+    width: 80%;
+    padding: 2rem;
+    box-shadow: 4px 6px 9px 0px rgb(0 0 0 / 49%);
+}
+@media (min-width: 790px) {
+    .form{
+        padding: 3rem;
+    }
+}
+.field{
+    /* display: block; */
+    margin: 0px 0px 1rem;
+}
+@media (min-width: 750px) {
+    .field{
+        display: flex;
+        gap: 2rem;
+        margin: 2rem 0rem;
+    }
+}
+.field label{
+    font-weight: 500; 
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem;
+    display: block;
+}
+.field-input{
+    padding: 1rem;
+    border: 1px solid #b5b5b8;
+    width: 90%; 
+}
+.field textarea{
+    width: 90%;
+    height: 10rem;
+    padding: 1rem;
+    border: 1px solid #b8b5b5;
+    margin-bottom: 1rem;
+}
+@media (min-width: 750px) {
+    .field-label{
+        flex: 0 0 9rem;
+        text-align: right;
+    }
+    .field-input{
+        flex: 1;
+    }
+}
+.button-contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+@media (min-width: 790px) {
+    .button-contact{
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+.button-contact a{
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    border-radius: 0px;
+    letter-spacing: 3px;
+}
+.button-contact .reset{
+    background-color: #10142b;
+}
